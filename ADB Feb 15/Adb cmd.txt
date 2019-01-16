@@ -1,5 +1,0 @@
-C:\Users\Rylyn\AppData\Local\Android\Sdk\platform-tools>
-adb shell screencap -p /sdcard/adbscreenshot/screenshot.png
-adb pull /sdcard/adbscreenshot/screenshot.png C:\Bruce\screenshotsaver\screenshot.png
-adb shell rm /sdcard/adbscreenshot/screenshot.png
-del c:\bruce\screenshotsaver\screenshot.png
