@@ -1,0 +1,14 @@
+-Image-
+im=Image.open(r"location\picturename.png")#open the file but dont read
+im.show()#show the picture through win picture softwares
+im.load()#atually read the picture
+Image.size#in pixels (width, height)
+Image.width# in pixels
+Image.height
+Image.palette#?
+Image.filename#?
+
+-ImageDraw-
+draw=ImageDraw.Draw(im)#create an object that can be used to draw in the given image
+draw.line((y1,y2),(x1,x2),(R,G,B))
+draw.ellipse((x1, y1, x2, y2), fill=(R,G,B))
